@@ -1,0 +1,23 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "A sample app for testing azure deployment",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "cd client&&npm install&&npm run build",
+    "build:server": "cd server&&npm install&&npm run build",
+    "build": "npm run build:client&&npm run build:server",
+    "start": "cd server&&node dist/bootstrapServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmanandhar/reactExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmanandhar/reactExpress/issues"
+  },
+  "homepage": "https://github.com/nmanandhar/reactExpress#readme"
+}
